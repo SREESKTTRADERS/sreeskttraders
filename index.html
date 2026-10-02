@@ -113,16 +113,38 @@
         <div class="section-heading">
           <p class="section-tag">GALLERY</p>
           <h2>Our Products & Work</h2>
-          <p>Add your real product photos here anytime.</p>
+          <p>Explore our building materials and products.</p>
         </div>
         <div class="gallery-grid">
-          <div class="gallery-placeholder"><span>🧱</span><strong>Fly Ash Bricks</strong></div>
-          <div class="gallery-placeholder"><span>▦</span><strong>Hollow Bricks</strong></div>
-          <div class="gallery-placeholder"><span>◆</span><strong>Jalli & Sand</strong></div>
-          <div class="gallery-placeholder"><span>◯</span><strong>Concrete Products</strong></div>
+          <button class="gallery-card" type="button" data-gallery-src="images/gallery/cement.jpg" data-gallery-title="Cement">
+            <img src="images/gallery/cement.jpg" alt="Cement" loading="lazy"><span>Cement</span>
+          </button>
+          <button class="gallery-card" type="button" data-gallery-src="images/gallery/jalli-1.jpg" data-gallery-title="Jalli">
+            <img src="images/gallery/jalli-1.jpg" alt="Jalli" loading="lazy"><span>Jalli</span>
+          </button>
+          <button class="gallery-card" type="button" data-gallery-src="images/gallery/jalli-2.jpg" data-gallery-title="Jalli">
+            <img src="images/gallery/jalli-2.jpg" alt="Jalli" loading="lazy"><span>Jalli</span>
+          </button>
+          <button class="gallery-card" type="button" data-gallery-src="images/gallery/m-sand.jpg" data-gallery-title="M-Sand">
+            <img src="images/gallery/m-sand.jpg" alt="M-Sand" loading="lazy"><span>M-Sand</span>
+          </button>
+          <button class="gallery-card" type="button" data-gallery-src="images/gallery/flyash-bricks.jpg" data-gallery-title="Fly Ash Bricks">
+            <img src="images/gallery/flyash-bricks.jpg" alt="Fly Ash Bricks" loading="lazy"><span>Fly Ash Bricks</span>
+          </button>
+          <button class="gallery-card" type="button" data-gallery-src="images/gallery/hollow-bricks-4-inch.jpg" data-gallery-title="Hollow Bricks – 4 Inch">
+            <img src="images/gallery/hollow-bricks-4-inch.jpg" alt="Hollow Bricks 4 Inch" loading="lazy"><span>Hollow Bricks – 4 Inch</span>
+          </button>
+          <button class="gallery-card" type="button" data-gallery-src="images/gallery/hollow-bricks-6-inch.jpg" data-gallery-title="Hollow Bricks – 6 Inch">
+            <img src="images/gallery/hollow-bricks-6-inch.jpg" alt="Hollow Bricks 6 Inch" loading="lazy"><span>Hollow Bricks – 6 Inch</span>
+          </button>
         </div>
       </div>
     </section>
+
+    <div class="gallery-lightbox" id="galleryLightbox" aria-hidden="true">
+      <button class="gallery-close" type="button" aria-label="Close image">×</button>
+      <figure><img id="galleryLightboxImage" src="" alt=""><figcaption id="galleryLightboxTitle"></figcaption></figure>
+    </div>
 
     <section class="section contact-section" id="contact">
       <div class="container contact-grid">
