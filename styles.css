@@ -22,3 +22,5 @@
 .product-card-image h3{margin-top:18px}
 .product-card-image p{margin-bottom:24px}
 @media(max-width:680px){.product-card-image img{height:170px}}
+
+.brand-logo{width:58px;height:58px;object-fit:cover;border-radius:12px;display:block}.brand-logo+span{min-width:0}@media(max-width:680px){.brand-logo{width:52px;height:52px}}
